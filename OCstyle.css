@@ -2,8 +2,20 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-background-color: black;
-background-image: url(https://t3.ftcdn.net/jpg/01/09/93/84/360_F_109938452_lyfzlslq2nDMMxmnxVZUIsD2UujLKsbw.jpg);
+    background-color: black;
+    background-image: url(https://t3.ftcdn.net/jpg/01/09/93/84/360_F_109938452_lyfzlslq2nDMMxmnxVZUIsD2UujLKsbw.jpg);
+}
+
+body {
+        cursor: url('cursor.png'), auto;
+}
+
+a, button, [role="button"], input[type="submit"] {
+  cursor: url('pointer.png'), pointer;
+}
+
+p, span, h1, h2, h3, h4, h5, h6, li, label, b, strong, i, em {
+  cursor: text;
 }
 
 header {
